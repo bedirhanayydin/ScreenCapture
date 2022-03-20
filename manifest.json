@@ -1,0 +1,18 @@
+{
+    "name": "Screenshot Capture",
+    "version": "1.0",
+    "description": "My First Cbrome Extension",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "camera.png",
+        "default_title": "Take a screen shot!By Bedirhan"
+    },
+    "icons": {"128": "screenshot.png"},
+    "permissions": ["activeTab"]
+}
